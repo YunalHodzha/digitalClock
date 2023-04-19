@@ -3,10 +3,15 @@
 body {
     font-family: 'Poiret One', cursive;
     overflow: hidden;
-    background-image: url(img.jpg);
+    background: conic-gradient(from 90deg at 50% 125%, #20b2aa, #135da5, #0d0895, #4b0082, #4b0082, #0d0895, #135da5, #20b2aa)
 }
 
+
 .container {
+    background: url(img.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 100%;
     width: 95%;
     height: 100vh;
     margin: auto;
@@ -21,7 +26,7 @@ body {
     padding: 10px;
     border-radius: 2px;
     color: white;
-    background-color: rgba(0, 0, 0, 0.1)
+    background-color: rgba(0, 0, 0, 0.3)
 }
 
 .digitalClock h1 {
@@ -32,11 +37,13 @@ body {
 }
 
 @media(max-width:768px) {
-    #bar1, #bar2{
+
+    #bar1,
+    #bar2 {
         display: none;
     }
 
-    .digitalClock{
+    .digitalClock {
         text-align: center;
         width: 100%;
     }
