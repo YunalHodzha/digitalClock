@@ -8,10 +8,6 @@ body {
 
 
 .container {
-    background: url(img.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: auto 100%;
     width: 95%;
     height: 100vh;
     margin: auto;
